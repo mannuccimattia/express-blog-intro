@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/mannuccimattia/express-blog-intro/issues"
   },
-  "homepage": "https://github.com/mannuccimattia/express-blog-intro#readme"
+  "homepage": "https://github.com/mannuccimattia/express-blog-intro#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
 }
