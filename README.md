@@ -15,3 +15,5 @@ nome repo express-blog-intro
 - Testare su postman
 
 Numero minimo di push 7
+
+DONE
