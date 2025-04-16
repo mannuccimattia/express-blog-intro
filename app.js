@@ -2,6 +2,7 @@ const express = require("express");
 const app = express();
 const port = 3000;
 
+
 app.get("/", (req, res) => {
   res.send("Server del mio blog")
 })
@@ -42,6 +43,8 @@ const posts = [
 app.get("/bacheca", (req, res) => {
   res.json(posts)
 })
+
+app.use(express.static("public"));
 
 app.listen(port, () => {
   console.log(`Server in ascolto alla porta ${port}`)
